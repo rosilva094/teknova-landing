@@ -40,11 +40,11 @@ export default function Card({ icon, title, summary, details }) {
         >
           {isOpen ? (
             <>
-              <ChevronUp className="w-4 h-4 mr-1" />
+              <ChevronDown className="w-4 h-4 mr-1" />
             </>
           ) : (
             <>
-              <ChevronDown className="w-4 h-4 mr-1" />
+              <ChevronUp className="w-4 h-4 mr-1" />
             </>
           )}
         </button>
