@@ -1,0 +1,30 @@
+ /* app/global.css*/
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #8E72F1;      /* violeta identidad */
+  --color-secondary: #F9FAFB;    /* gris claro de fondo */
+  --color-background: #FFFFFF;
+  --color-accent: #FFD166;       /* dorado pastel para detalles */
+  --color-muted-primary: #e8e3fc;        /* Violeta /20*/
+  --color-muted-accent: #ffda85; /*Dorado /80*/
+  --color-text-dark: #1F2937;
+  --color-text-light: #FFFFFF;
+  --font-inter: "Inter", sans-serif;
+}
+
+
+
+html {
+  font-family: var(--font-inter);
+  background-color: var(--color-background);
+  color: var(--color-text-dark);
+}
+.no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
